@@ -25,7 +25,8 @@ public class PokemonRenter {
 	static Pokemon dragonite = new Pokemon("Dragonite", 75, 65, 5);
 	static Pokemon[] pokemons = new Pokemon[3];
 	static Pokemon[] pokemonsCopy = new Pokemon[3];
-
+	
+	// Gets an object which can then be used within the battle
 	public static Pokemon[] rentablePokemon() {
 		for (int i = 0; i < pokemons.length; i++) {
 			if (i == 0) {
