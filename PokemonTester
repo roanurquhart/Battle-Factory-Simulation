@@ -12,7 +12,7 @@ public class PokemonTester {
 	private Scene _scene;
 	private PokemonRenter _renter;
 	private static Stage _stage;
-
+	// main method
 	public static void main(String[] args) {
 		int n = 1;
 		while (n == 1) {
