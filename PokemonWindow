@@ -38,11 +38,6 @@ public class PokemonWindow {
 		}
 
 	}
-
-	/*
-	 * Cause the Stage to appear (even after it's been closed!) and force it to
-	 * be brought as the front window open.
-	 */
 	public void show() {
 		_stage.show();
 		_stage.toFront();
